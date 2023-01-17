@@ -1,4 +1,14 @@
-Chanchito Felices
-chanchito triste 
-felipe
-chanchito 2
+--(Comandos GIT)
+1.- touch "Archivo" -> Crear un nuevo Archivo
+2.- cat NombreArchivo -> Ver el contenido del arhivo
+
+--CREACION DE RAMAS(Comandos)
+1.- git branch -> Lista todas las ramas existentes y la que resalta de color 
+                    verde es con la que trabajas
+2.- git branch "NombreRama" -> Crea una nueva rama 
+3.- git branch -m "NombreRama" -> Cambia nombre a la rama 
+4.- git branch -d "NombreRama" -> Elimina la rama 
+4.- git checkout "NombreRama" -> Selecciona la rama con la que queremos 
+                                trabajar.
+5.- git checkout -b "NombreRama" -> Crea una nueva rama y la Selecciona
+                        
