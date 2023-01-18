@@ -1,6 +1,23 @@
 --(Comandos GIT)
 1.- touch "Archivo" -> Crear un nuevo Archivo
 2.- cat NombreArchivo -> Ver el contenido del arhivo
+3.- git status -> Ver el detalle de los archivos que sufren cambios
+4.- git status -s -> Ver todos los archivos con cambiso y sin cambios
+5.- git add . -> Guardar todos los archivos
+6.- git add Archivo.txt Archivo2.txt -> Guardar solo archivos seleccionados
+7.- git commit -m "Mnesaje" -> Enviar un mensaje al hacerle un commit
+8.- git log --oneline -> Lista todos los commit del proyecto
+9.- git diff --staged ->
+10.- mkdir -> Crear una carpeta
+11.- ls -> Lista todas las carpetas de la ruta
+12.- pwd -> Te muestra la ruta en la que te encuentras
+13.- cd .. -> Retrocede una carpeta
+14.- cd NombreCarpeta -> Ingreso a una carpeta
+15.- vi NombreArchivo -> Modificar archivos desde consola
+15.1.- ctrl + c -> Parar procesos y escribir :wq para guardarlos
+15.2.- "Expresiones regulares" w! NombreArchivoTemporal -> Crear archivos temporales
+15.3.- :r NombreArchivoTemporal -> Agrega el archivo temp en el archivo que desees
+16.- rm temp -> Borrar archivos temporales
 
 --CREACION DE RAMAS(Comandos)
 1.- git branch -> Lista todas las ramas existentes y la que resalta de color 
