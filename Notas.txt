@@ -1,3 +1,21 @@
-Hola  TODOS 
-MI NOMBRE ES JOHER 
-COMO ESTAN
+--Errores en la consola de VSC
+
+1.-'Get-ExecutionPolicy' -> Ver las restricciones al ejecutar Comandos(Restricted o Unrestricted)
+
+2.-'Set-ExecutionPolicy Restricted' o Unrestricted-> Cambiar el valor de la restriccion
+
+3.-
+
+Set-ExecutionPolicy : Se denegó el acceso a la clave de Registro 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell'. 
+Para cambiar la directiva de ejecución para el ámbito (LocalMachine) predeterminado, inicie Windows PowerShell con la opción "Ejecutar como
+administrador". Para cambiar la directiva de ejecución para el usuario actual, ejecute "Set-ExecutionPolicy -Scope CurrentUser".
+En línea: 1 Carácter: 1
++ Set-ExecutionPolicy Unrestricted
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], UnauthorizedAccessException
+    + FullyQualifiedErrorId : System.UnauthorizedAccessException,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
+
+SOLUCION 2
+ejecutar el comando 'Set-ExecutionPolicy -Scope CurrentUser'
+Luego te pedira que setees las politicas de ejecucion en "Unrestricted"
+Confirmas el cambio ejecutando 'Get-ExecutionPolicy'
