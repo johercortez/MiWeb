@@ -18,6 +18,8 @@
 15.2.- "Expresiones regulares" w! NombreArchivoTemporal -> Crear archivos temporales
 15.3.- :r NombreArchivoTemporal -> Agrega el archivo temp en el archivo que desees
 16.- rm temp -> Borrar archivos temporales
+17.- :set nu -> Ver el numero en el archivo desde la consola
+18.- git difftool -> Ver los cambios en el archivo que sufre cambios en la consola
 
 --CREACION DE RAMAS(Comandos)
 1.- git branch -> Lista todas las ramas existentes y la que resalta de color 
