@@ -1,4 +1,9 @@
 --(Comandos GIT)
+1.- git init -> inicializar repositorio dependiendo la configuracion la rama 
+                por defecto sera master o main
+2.- git config --global init.defaultBranch main -> Cambiar el repositorio por defecto a main
+                                                    y tendremos que borrar la carpeta .git  
+                                                    que esta oculta para crear un nuevo repositorio
 1.- touch "Archivo" -> Crear un nuevo Archivo
 2.- cat NombreArchivo -> Ver el contenido del arhivo
 3.- git status -> Ver el detalle de los archivos que sufren cambios
@@ -7,9 +12,10 @@
 6.- git add Archivo.txt Archivo2.txt -> Guardar solo archivos seleccionados
 7.- git commit -m "Mnesaje" -> Enviar un mensaje al hacerle un commit
 8.- git log --oneline -> Lista todos los commit del proyecto
-9.- git diff --staged ->
+9.- git diff rama1 rama2 -> Diferencias entre ramas
 10.- mkdir -> Crear una carpeta
 11.- ls -> Lista todas las carpetas de la ruta
+11.1.- ls -a -> Lista todos los archivos de una ruta hasta los ocultos
 12.- pwd -> Te muestra la ruta en la que te encuentras
 13.- cd .. -> Retrocede una carpeta
 14.- cd NombreCarpeta -> Ingreso a una carpeta
